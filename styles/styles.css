@@ -882,9 +882,7 @@ section {
   }
 }
 @media screen and (max-width: 1070px) {
-  .about-container {
-    grid-template-columns: repeat(1, 1fr);
-  }
+
   .about-container .right-about {
     padding-top: 2.5rem;
   }
@@ -953,6 +951,7 @@ section {
   .main-title h2 {
     font-size: 3rem;
   }
+
   .main-title h2 span {
     font-size: 3rem;
   }
