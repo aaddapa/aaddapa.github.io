@@ -206,7 +206,7 @@ section {
     padding-bottom: 5rem;
 
     .left-about {
-        padding-right: 5rem;
+        
         p {
             line-height: 2rem;
             padding: 1rem;
@@ -334,10 +334,10 @@ section {
 
 //Contact section
 .contact-content-con {
-    display: flex;
+    
     padding-top: 3.5rem;
     .left-contact {
-        flex: 2;
+        
         h4 {
             margin-top: 1rem;
             font-size: 2rem;
@@ -352,7 +352,7 @@ section {
             .contact-item {
                 display: flex;
                 align-items: center;
-                justify-content: space-between;
+               
                 p {
                     margin: .3rem 0 !important;
                     padding: 0 !important;
@@ -398,36 +398,6 @@ section {
         }
     }
 
-    .right-contact {
-        flex: 3;
-        margin-left: 3rem;
-        .input-control {
-            margin: 1.5rem 0;
-            input, textarea {
-                border-radius: 30px;
-                font-weight: inherit;
-                font-size: inherit;
-                font-family: inherit;
-                padding: .8rem 1.1rem;
-                outline: none;
-                border: none;
-                background-color: var(--color-grey-5);
-                width: 100%;
-                color: var(--color-white);
-                resize: none;
-            }
-        }
-        .i-c-2 {
-            display: flex;
-            :last-child{
-                margin-left: 1.5rem;
-            }
-        }
-        .submit-btn {
-            display: flex;
-            justify-content: flex-start;
-        }
-    }
 }
 
 
